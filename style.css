@@ -99,18 +99,17 @@ z-index: 1;
 #hero {
     margin-top: 150px;
     padding: 200px 30px;
-    max-width:1200px;
+    max-width: 1200px;
     display: flex;
     align-items: center;
-    width: 100%;
-    height: 100%;
+   
     
 }
 
 .hero-bienvenida {
     display: flex ;
     flex-direction: column;
-    width: 100%;
+    width: 500px;
 
 }
 .hero-bienvenida h1 {
@@ -333,6 +332,7 @@ footer {
     .hero-bienvenida h1 {
         display: block;
         width: 100%;
+        font-size: 40px;
     }
 
     .hero-bienvenida h3 {
@@ -347,9 +347,13 @@ footer {
         align-items: center; 
     }
 
-    .about-glow h1,
+    .about-glow h1 {
+        font-size: 40px;
+        color: #e62d7f;
+    }
     .about-glow p {
       color: #e62d7f;
+      font-size: 30px;
 
 
     }
@@ -357,6 +361,11 @@ footer {
         text-align: center;
         width: 90%;
         align-items: center; 
+        
+    }
+
+    .contact-container{
+        font-size: 30px;
     }
 }
 
@@ -380,8 +389,8 @@ footer {
     #toggle-menu:checked + .navbar-menu {
         transform: translateX(0%);
     }
-     
-
+     }
+/*
     .hero-bienvenida {
         text-align: center;
         width: 90%;
@@ -423,7 +432,7 @@ footer {
         width: 90%;
         align-items: center;
     }
-       
+       */
    
 
 }
