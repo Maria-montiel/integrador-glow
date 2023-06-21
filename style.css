@@ -326,18 +326,19 @@ footer {
         text-align: center;
         width: 90%;
         align-items: center;
+        margin: 0 auto;
 
     }
 
     .hero-bienvenida h1 {
         display: block;
         width: 100%;
-        font-size: 40px;
+        font-size: 80px;
     }
 
     .hero-bienvenida h3 {
         max-width: 80%;
-        font-size: 20px;
+        font-size: 50px;
     }
   
 
@@ -364,8 +365,14 @@ footer {
         
     }
 
-    .contact-container{
-        font-size: 30px;
+
+    #contact {
+        flex-direction: column;
+        align-items: center;
+    }
+    iframe {
+        height: 300px;
+        width: 100%;
     }
 }
 
@@ -374,7 +381,7 @@ footer {
         background-color: var(--color1);
         color: white;
         width: 100%;
-        height: calc(100vh-200px);
+        height: calc(100vh- 150px);
         position: absolute;
         top: 150px;
         left: 0;
@@ -382,6 +389,7 @@ footer {
         align-items: center;
         justify-content: center;
         transform: translateX(200%);
+        
     }
     .navbar i {
         display: block;
@@ -389,8 +397,16 @@ footer {
     #toggle-menu:checked + .navbar-menu {
         transform: translateX(0%);
     }
+
+
+
+
      }
-/*
+
+
+
+
+/* papelera
     .hero-bienvenida {
         text-align: center;
         width: 90%;
@@ -434,7 +450,5 @@ footer {
     }
        */
    
-
-}
 
 
